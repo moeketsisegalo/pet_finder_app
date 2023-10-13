@@ -1,7 +1,38 @@
 # pet_finder_app
 
-
 Welcome to Pet Finder App, a platform dedicated to helping pet owners find their beloved pets and connecting pets with their future families.
+## Prerequisites
+
+Before running the app, ensure you have the following installed:
+
+- **Python**: Make sure you have Python installed. If not, you can download it from [Python's official website](https://www.python.org/downloads/).
+
+- **Virtual Environment**: It's recommended to use a virtual environment to manage dependencies. If you don't have `virtualenv`, you can install it using pip:
+  ```pip install virtualenv```
+
+  Virtualenvwrapper: This is a set of shell scripts that provide additional functionality to manage your virtual environments. Install it using pip:
+  ```pip install virtualenvwrapper```
+
+## Installation
+
+1.Clone the repository:
+```git clone https://github.com/moeketsisegalo/pet_finder_app.git```
+```cd pet-finder-app```
+
+2.Create a virtual environment:
+```mkvirtualenv my_django```  # You can choose any name for the virtual environment
+
+3.Activate the virtual environment
+```workon my_django```  # Use the name of your virtual environment
+
+##Running the App
+
+Run the development server
+```python manage.py runserver```
+
+
+
+
 
 ## Features
 
