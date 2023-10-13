@@ -25,7 +25,7 @@ Before running the app, ensure you have the following installed:
 3.Activate the virtual environment
 ```workon my_django```  # Use the name of your virtual environment
 
-##Running the App
+## Running the App
 
 Run the development server
 ```python manage.py runserver```
